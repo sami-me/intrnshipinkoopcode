@@ -1,0 +1,149 @@
+
+
+
+
+
+
+body{
+    width:100%;
+    background-color:#fafafa;
+    padding:0px;
+    margin:0px;
+    
+}
+
+.container{
+    display: flex;
+    width:100%;
+}
+
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+.right{
+    width:80%;
+    float:left;
+    padding: 10px;
+}
+
+.left{
+    width:20%;
+    float: left;
+    padding:10px;
+}
+
+.left .sidebar{
+
+}
+.left .sidebar h2{
+    font-family: monospace;
+    font-size: 42px;
+    text-align: center;
+}
+
+.left .sidebar ul{
+    margin-left:1.5em;
+}
+
+.left .sidebar ul li{
+    padding: 0px;
+    list-style:none;
+}
+
+.left .sidebar a{
+    padding: 18px 5px;
+    color: gray;
+    display: block;
+    font-family: system-ui;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+span.through-line{
+    text-decoration: line-through;
+    text-decoration-color: #fd4e4e;
+    text-decoration-thickness: 2px;
+}
+
+.checkout a{
+    width: 110px;
+    margin: auto;
+    background-color: #fd4e4e;
+    color: #fafafa !important;
+    border-radius: 32px;
+    text-align: center;
+    padding: 13px 15px !important;
+}
+
+.header{
+    padding: 10px;
+}
+
+.header:after{
+    content:'';
+    display: flex;
+    clear:both;
+}
+.header > .h-left{
+    width: 67%;
+    float: left;
+    padding:0px;
+}
+
+.header > .h-right{
+    width: 33%;
+    float:left;
+}
+
+.header > .h-left > .heading-1{
+    font-size: 70px;
+    padding: 5% 15% 5% 5%;
+    font-family: serif;
+    line-height: 85px;
+}
+
+.header > .h-right .content{
+    padding:10px;
+}
+
+.header > .h-right .content .text{
+    padding: 25% 25% 25% 0%;
+    font-family: system-ui;
+    font-size: 16px;
+    color: #9a9a9a;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+.header > .h-right .content .text .botm-line{
+    width: 34%;
+    text-align: left;
+    margin-left: 0px;
+    background-color: #fd4e4e;
+    height: 3px;
+    border: none;
+}
+
+.items .item {
+box-shadow:10px 10px 10px 0px gray;
+padding: 5px;
+width: 150px!important;
+height: 200px;
+float: left;
+border-radius: 15px;
+background-color: #fff;
+margin:10px 20px;
+text-align:center;
+}
+.items .item img{
+    width: 130px;
+    border-radius: 50%;
+    height: 131px;
+}
+.items .item h5{
+    margin: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
